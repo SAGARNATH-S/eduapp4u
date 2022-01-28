@@ -1,0 +1,20 @@
+<form [formGroup]="signUp" (ngSubmit)="onFormSubmit(signUp.value)">
+    <label>First name </label>
+    <input type="text" placeholder="First Name" formControlName="first_name" style="margin-bottom: 20px;text-align: center;">
+    <br>    
+    <label>Last name </label>
+    <input type="text" placeholder="Last Name" formControlName="last_name" style="margin-bottom: 20px;text-align: center;">
+    <br>
+    <label>Email Id</label>
+    <input type="email" placeholder="Email" formControlName="username" style="margin-bottom: 20px;text-align: center;">
+    <br>    
+    <label>Phone</label>
+    <input type="email" placeholder="Phone" formControlName="phone" style="margin-bottom: 20px;text-align: center;">
+    <br>
+    <label>Password</label>
+    <input type="password" placeholder="password" formControlName="password"
+        style="margin-bottom: 20px;text-align: center;">
+    <br>
+    <button type="submit" class="button"><span> Sign in</span></button>
+    <br>
+</form>
