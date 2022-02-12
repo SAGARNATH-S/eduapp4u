@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AuthService {
 
-  apiUrl = 'https://bbd0-2409-4073-300-b3cc-656a-aad3-280e-e589.ngrok.io';
+  apiUrl = 'https://edu-manage-api.herokuapp.com';
 
   constructor(private http: HttpClient) { }
 
